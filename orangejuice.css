@@ -67,7 +67,7 @@ body, html {
 }
 
 .sort-options button:hover {
-    background-color: #5D7FB6; /* Hover color */
+    background-color: #4594BB; /* Hover color */
 }
 
 /* Recently Bought and Recommendations Sections */
@@ -111,7 +111,7 @@ section {
 }
 
 .add-to-list:hover {
-    background: #5D7FB6; /* Hover color */
+    background: #4594BB; /* Hover color */
 }
 
 .back-button {
@@ -129,5 +129,5 @@ section {
 }
 
 .back-button:hover {
-    background-color: #5D7FB6; /* Hover color */
+    background-color: #4594BB; /* Hover color */
 }
