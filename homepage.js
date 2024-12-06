@@ -1,40 +1,6 @@
-function navigateToPage(path) {
-  window.location.href = path;
-}
-
-function search(){
-  navigateToPage('itemsearch.html');
-}
-  
-function newliststart(){
-  navigateToPage('newlist.html');
-}
-  
-function newlistmore(){
-  navigateToPage('otherhtmls/morelist.html');
-}
-  
-function vonstrip(){
-  navigateToPage('otherhtmls/vontrip.html');
-}
-  
-function walmarttrip(){
-  navigateToPage('otherhtmls/waltrip.html');
-}
-  
-function tripmore(){
-   navigateToPage('otherhtmls/moretrip.html');
-}
-  
-function targetsale(){
-  navigateToPage('otherhtmls/target.html');
-}
-  
-function ralphscoupon(){
-  navigateToPage('otherhtmls/ralphs.html');
-}
-  
-function sandcmore(){
-  navigateToPage('otherhtmls/sale.html');
-}
+document.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', (event) => {
+      console.log(`Navigating to: ${event.target.href}`);
+  });
+});
 

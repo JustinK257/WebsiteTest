@@ -1,0 +1,99 @@
+/* Overall font and formating*/
+body{
+    font-family:'Arial', sans-serif;
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 0;
+}
+
+#imgfix {
+    width: 10%;
+    height: auto;
+}
+
+/* Heading */
+h1 {
+    background-color: #4594BB;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 1% 5% 1% 5%;
+}
+
+/* Separation Lines */
+hr{
+    height: 3px;
+    color: #616161;
+    background: #616161;
+}
+
+/* Headings */
+.basic {
+    padding: 1%;
+    color: #616161;
+}
+
+/* Item Search Bar */
+.ItemSearch {
+    text-align: center;
+    background-color: #616161;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #FAFAFA;
+    width: 80%;
+    padding: 2% 0%;
+    margin: 1% 10% 1% 10%;
+    border-radius: 10px;
+}
+
+.button1 {
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px; 
+    background-color: #616161;
+    color: #FAFAFA; 
+}
+
+/* Add Button */
+.button2 {
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px; 
+    background-color: #CCCCCC;
+    color: #6DAA68; 
+    padding: 10px;
+}
+
+/* More Button */
+.more {
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px; 
+    background-color: #ABABAB;
+    color: #FAFAFA; 
+    padding: 1%;
+    width: 80%;
+    margin: 1% 10%;
+}
+
+/* Navigation Button */
+
+.button4 {
+    font-size: 20px;
+    text-align: right;
+    border-radius: 5px; 
+    background-color: #ABABAB;
+    color: #FAFAFA; 
+    flex: 1;
+}
+
+/* Basic Layout */
+
+.basicButton{
+    text-align: center;
+    background-color: #ABABAB;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #FAFAFA;
+    width: 80%;
+    padding: 10px;
+    margin: 1% 10% 1% 10%;
+    border-radius: 10px;
+}
