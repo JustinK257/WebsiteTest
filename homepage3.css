@@ -1,0 +1,243 @@
+/* General Reset */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 0;
+    color: #616161;
+}
+
+h1 {
+    background-color: #5D7FB6;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+hr {
+    height: 3px;
+    color: #616161;
+    background: #616161;
+    margin: 20px 0;
+}
+
+/* General Styles for Text */
+.basic {
+    color: #616161;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Item Search Section */
+.ItemSearch {
+    text-align: center;
+    background-color: #616161;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #FAFAFA;
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.button1 {
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #616161;
+    color: #FAFAFA;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button1:hover {
+    background-color: #444444; /* Slightly darker shade */
+}
+
+/* Basic Button Section */
+.basicButton {
+    text-align: center;
+    background-color: #ABABAB;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #FAFAFA;
+    width: 80%;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.button2 {
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #CCCCCC;
+    color: #6DAA68;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button2:hover {
+    background-color: #A5C4A2; /* Slightly darker shade */
+}
+
+/* "More" Button */
+.more {
+    text-align: center;
+    background-color: #ABABAB;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #FAFAFA;
+    width: 80%;
+    padding: 12px;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.more:hover {
+    background-color: #A5A5A5; /* Slightly darker shade */
+}
+
+/* Basic Button 2 Section (for image and button alignment) */
+.basicButton2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ABABAB;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #FAFAFA;
+    width: 80%;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+.basicButton2 a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.basicButton2 img {
+    width: 10%;
+    height: auto;
+    margin-right: 15px; /* Space between image and button */
+}
+
+.button4 {
+    font-size: 18px;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #ABABAB;
+    color: #FAFAFA;
+    padding: 10px;
+    width: 100%; /* Ensures the button takes up the full width of the container */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1; /* Allows the button to stretch across available space */
+}
+
+.button4:hover {
+    background-color: #A5A5A5; /* Slightly darker shade */
+}
+
+/* Styling for the "..." buttons */
+.more {
+    font-size: 18px;
+    text-align: center;
+    background-color: #ABABAB;
+    color: #FAFAFA;
+    padding: 12px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.more:hover {
+    background-color: #A5A5A5; /* Slightly darker shade */
+}
+
+/* Fix image scaling */
+#imgfix {
+    width: 10%;
+    height: auto;
+    margin-right: 15px; /* Space between image and button */
+}
+
+/* Input Fields */
+input {
+    text-align: center;
+    background-color: #616161;
+    color: #FAFAFA;
+    padding: 12px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px auto;
+    border: none;
+    box-sizing: border-box;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    /* On medium-sized screens, reduce widths and font sizes */
+    .ItemSearch, .basicButton, .more, .basicButton2 {
+        width: 90%;
+    }
+
+    .button1, .button2, .button4, .more {
+        font-size: 22px;
+        padding: 12px 24px;
+    }
+
+    .basicButton2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .basicButton2 img {
+        width: 20%; /* Larger image size on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    /* On smaller screens (mobile), further adjustments */
+    .ItemSearch, .basicButton, .more, .basicButton2 {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .button1, .button2, .button4, .more {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .basicButton2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .basicButton2 img {
+        width: 30%; /* Larger image size on smaller screens */
+    }
+
+    /* Adjust margins and paddings to avoid content from spilling out */
+    h1, hr {
+        padding: 10px;
+    }
+
+    .basic, .basicButton, .more {
+        margin: 15px auto;
+    }
+}
