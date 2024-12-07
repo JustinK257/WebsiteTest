@@ -5,12 +5,12 @@ body{
     padding: 0;
   }
   
-  h1 {
-    background-color: #4594BB;
-    color: #FAFAFA;
-    text-align: center;
-    padding: 15px;
-  }
+h1 {
+  background-color: #4594BB;
+  color: #FAFAFA;  
+  text-align: center;
+  padding: 15px;
+}
   
 .format{
   text-align: center;
@@ -54,4 +54,10 @@ button{
 
 .back-button:hover {
     background-color: #FF4242; /* Hover color */
+}
+
+/*Product Card Styling */
+
+.product-card {
+    background-color: #ABABAB;
 }
