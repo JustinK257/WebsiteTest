@@ -51,6 +51,8 @@ button{
   background-color: #616161;
   color: #FAFAFA;
   font-size: 20px;
+  border-radius: 5px;
+  padding: 5px 5px;
 }
 
 .back-button {
@@ -105,4 +107,12 @@ button{
 .product-card img {
     width: 20%;
     height: 20%;
+}
+
+.product-card button {
+  border: none;
+}
+
+.product-card button:hover{
+  background-color: #6DAA68;
 }

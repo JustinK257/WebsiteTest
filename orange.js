@@ -12,6 +12,6 @@ function added(){
 }
 
 function added2(){
-    alert('Added to list (Not Properly Implemented Yet)');
+    alert('Added to list (Not Properly Implemented Yet, it will just add the recommended item)');
     window.location.href = 'list/updatedlist.html';
 }
