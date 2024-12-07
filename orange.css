@@ -11,6 +11,20 @@ h1 {
   text-align: center;
   padding: 15px;
 }
+
+.basic {
+    color: #616161;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0 0px;
+}
+
+hr {
+    height: 3px;
+    color: #616161;
+    background: #616161;
+    margin: 10px 0 20px;
+}
   
 .format{
   text-align: center;
@@ -60,6 +74,7 @@ button{
 
 .sort-options {
     display: flex;
+    margin: 1% 30%
 }
 
 .sort-options button {
@@ -67,9 +82,10 @@ button{
     color: #FAFAFA;
     border: none;
     padding: 5px 10px;
-    margin-left: 10px;
+    margin: 0 auto;
     cursor: pointer;
     border-radius: 3px;
+    display: inline;
 }
 
 /*Product Card Styling */
