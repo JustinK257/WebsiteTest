@@ -5,30 +5,29 @@
     <script src="newlist.js" defer></script>
     <title>Shopping List</title>
 </head>
-<body onload="loadShoppingList()">
+<body>
     <!-- Back Button -->
     <button class="back-button" onclick="goBack()">&#8592; Back</button>
     
     <!-- Page Header -->
-    <h1>Shopping List</h1>
+    <h1>Grocery Tracker</h1>
 
     <!-- Item Search -->
     <div class="ItemSearch">
-        <button class="button1" onclick="search()">Item Search</button>
+        <a href='itemsearch.html'>
+            <button class="button1">Item Search</button>
+        </a>
     </div>
 
     <!-- Shopping List Section -->
     <h2 class="basic">Shopping List</h2>
     <hr>
 
-    <!-- Container for dynamically loaded shopping list -->
-    <div id="shopping-list" class="shopping-list-container">
-        <!-- Dynamically generated content will appear here -->
-    </div>
-
     <!-- Add Item Section -->
     <div class="basicButton">
-        <button class="button2" onclick="search()">+</button>
+        <a href="itemsearch.html">
+            <button class="button2">+</button>
+        </a>
         <p>Add an Item</p>
     </div>
 </body>

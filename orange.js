@@ -5,3 +5,8 @@ function goBack() {
         window.location.href = 'index.html'; // Redirect to a default page if no history exists
     }
 }
+
+function added(){
+    alert('Added to list (Not Properly Implemented Yet)');
+    window.location.href = 'list/updatedlist.html';
+}

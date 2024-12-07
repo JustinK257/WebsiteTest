@@ -11,7 +11,8 @@ h1 {
   background-color: #4594BB;
   color: #FAFAFA;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
+  margin: 0;
 }
 
 hr {
@@ -22,33 +23,51 @@ hr {
 
 /* Basic Styling */
 .basic {
-  padding: 0% 1% 1% 1%;
   color: #616161;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 0;
 }
 
-/* Button Containers */
-.ItemSearch, .basicButton {
+/* Item Search */
+.ItemSearch {
   text-align: center;
   background-color: #616161;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   color: #FAFAFA;
   width: 80%;
   padding: 10px;
-  margin: 1% 10% 1% 10%;
+  margin: 20px auto;
   border-radius: 10px;
 }
 
-.basicButton {
-  background-color: #ABABAB;
-}
-
-/* Button Styling */
 .button1 {
   font-size: 24px;
   text-align: center;
   border-radius: 5px;
   background-color: #616161;
   color: #FAFAFA;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button1:hover {
+  background-color: #444444; /* Slightly darker shade */
+}
+
+/* Add Item */
+
+.basicButton {
+  text-align: center;
+  background-color: #ABABAB;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #FAFAFA;
+  width: 80%;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
 }
 
 .button2 {
@@ -57,16 +76,14 @@ hr {
   border-radius: 5px;
   background-color: #CCCCCC;
   color: #6DAA68;
-  padding: 10px;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.button3 {
-  font-size: 24px;
-  text-align: center;
-  border-radius: 5px;
-  background-color: #ABABAB;
-  color: #FAFAFA;
-  padding: 10px;
+.button2:hover {
+  background-color: #A5C4A2; /* Slightly darker shade */
 }
 
 /* Back Button Styling */
@@ -85,79 +102,8 @@ hr {
 }
 
 .back-button:hover {
-  background-color: #5D7FB6;
+  background-color: #FF4242;
 }
 
-/* Shopping List Empty State */
-#shopping-list p {
-  font-size: 18px;
-  font-weight: bold;
-  color: #616161;
-  text-align: center;
-}
 
-/* Product Card Styling */
-.product-card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ABABAB;
-  color: #FAFAFA;
-  padding: 15px;
-  margin: 10px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Product Info Styling */
-.product-info p {
-  margin: 5px 0;
-}
-
-/* Product Actions */
-.product-actions {
-  display: flex;
-  gap: 10px;
-}
-
-/* Remove Button Styling */
-.remove-button {
-  background-color: #FF6262;
-  color: #FAFAFA;
-  border: none;
-  padding: 8px 12px;
-  font-size: 14px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.remove-button:hover {
-  background-color: #FF0000;
-}
-
-/* Decrement Button Styling */
-.decrement-button {
-  background-color: #616161;
-  color: #FAFAFA;
-  border: none;
-  padding: 8px 12px;
-  font-size: 14px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.decrement-button:hover {
-  background-color: #5D7FB6;
-}
-
-/* Input Field for Quantity */
-input[type='number'] {
-  width: 50px;
-  text-align: center;
-  background-color: #FAFAFA;
-  color: #616161;
-  border: 1px solid #616161;
-  border-radius: 5px;
-  padding: 5px;
-}
 
