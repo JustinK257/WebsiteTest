@@ -39,8 +39,8 @@ button{
 }
 
 .back-button {
-  background-color: #616161; /* Matches your button color */
-  color: #FAFAFA; /* White text */
+  background-color: #616161;
+  color: #FAFAFA;
   border: none;
   padding: 10px 15px;
   font-size: 16px;
