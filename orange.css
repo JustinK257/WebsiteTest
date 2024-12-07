@@ -56,8 +56,36 @@ button{
     background-color: #FF4242; /* Hover color */
 }
 
+/* Filter Styling */
+
+.sort-options {
+    display: flex;
+}
+
+.sort-options button {
+    background: #616161; /* Filter button color */
+    color: #FAFAFA;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
 /*Product Card Styling */
 
 .product-card {
+    text-align: left;
     background-color: #ABABAB;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #FAFAFA;
+    width: 80%;
+    padding: 10px;
+    margin: 1% 10% 1% 10%;
+    border-radius: 10px;
+}
+
+.product-card img {
+    width: 20%;
+    height: 20%;
 }
