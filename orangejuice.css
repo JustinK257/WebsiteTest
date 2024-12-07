@@ -34,6 +34,7 @@ body, html {
     border-radius: 5px;
     padding: 5px;
     color: #FAFAFA;
+    width: 50%;
 }
 
 .search-bar input {
@@ -41,7 +42,7 @@ body, html {
     background: none;
     color: #FAFAFA; /* Text color in search bar */
     padding: 5px;
-    width: 300px;
+    width: 50%;
     outline: none;
 }
 
