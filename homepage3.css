@@ -102,7 +102,7 @@ hr {
 }
 
 .more:hover {
-    background-color: #A5A5A5; /* Slightly darker shade */
+    background-color: #949494; /* Slightly darker shade */
 }
 
 /* Basic Button 2 Section (for image and button alignment) */
@@ -148,7 +148,7 @@ hr {
 }
 
 .button4:hover {
-    background-color: #A5A5A5; /* Slightly darker shade */
+    background-color: #949494; /* Slightly darker shade */
 }
 
 /* Styling for the "..." buttons */
@@ -166,7 +166,16 @@ hr {
 }
 
 .more:hover {
-    background-color: #A5A5A5; /* Slightly darker shade */
+    background-color: #949494; /* Slightly darker shade */
+}
+
+.more1 {
+    background-color: #ABABAB;
+    padding: 12px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
 }
 
 /* Fix image scaling */
