@@ -7,6 +7,11 @@ function goBack() {
 }
 
 function added(){
+    alert('Added to list');
+    window.location.href = 'list/updatedlist.html';
+}
+
+function added2(){
     alert('Added to list (Not Properly Implemented Yet)');
     window.location.href = 'list/updatedlist.html';
 }

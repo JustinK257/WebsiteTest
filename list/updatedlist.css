@@ -1,0 +1,140 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styling */
+  h1 {
+    background-color: #4594BB;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  hr {
+    height: 3px;
+    color: #616161;
+    background: #616161;
+  }
+  
+  /* Basic Styling */
+  .basic {
+    color: #616161;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Item Search */
+  .ItemSearch {
+    text-align: center;
+    background-color: #616161;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #FAFAFA;
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  
+  .button1 {
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #616161;
+    color: #FAFAFA;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button1:hover {
+    background-color: #444444; /* Slightly darker shade */
+  }
+  
+  /* Add Item */
+  
+  .basicButton {
+    text-align: center;
+    background-color: #ABABAB;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #FAFAFA;
+    width: 80%;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  
+  .button2 {
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #CCCCCC;
+    color: #6DAA68;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button2:hover {
+    background-color: #A5C4A2; /* Slightly darker shade */
+  }
+  
+  /* Back Button Styling */
+  .back-button {
+    background-color: #616161;
+    color: #FAFAFA;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .back-button:hover {
+    background-color: #FF4242;
+  }
+
+  /* Styling for Orange Juice */
+
+.product-card {
+  text-align: left;
+  background-color: #ABABAB;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #FAFAFA;
+  width: 80%;
+  padding: 10px;
+  margin: 1% 10% 1% 10%;
+  border-radius: 10px;
+}
+
+.product-card img {
+    width: 20%;
+    height: 20%;
+}
+
+.product-card input {
+    width: 10%;
+    background-color: #FAFAFA;
+    color: #616161;
+}
+
+.product-card button {
+    background-color: #616161;
+    color: #FAFAFA;
+    border: none;
+}
+
+.product-card button:hover{
+    background-color: #FF4242;
+}
