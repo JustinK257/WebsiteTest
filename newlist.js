@@ -34,7 +34,6 @@ function loadShoppingList() {
             </div>
             <div class="product-actions">
                 <button class="remove-button" onclick="removeItem(${index})">Remove</button>
-                <button class="decrement-button" onclick="decrementItem(${index})">-</button>
             </div>
         `;
 
